@@ -1,0 +1,24 @@
+.alert-success {
+  margin: 10px;
+}
+
+.data {
+  margin-right: 15px !important;
+}
+
+h1,
+h1 + div {
+  display: inline-block !important;
+}
+
+img {
+  height: -webkit-fill-available !important;
+  width: -webkit-fill-available !important;
+}
+
+.text-ellipsis {
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Display ellipsis (...) for overflowed text */
+  max-width: 100%; /* Ensure it doesn't expand beyond its container */
+}
